@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>NFT Mobile Apps</title>
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+   <section class="wrapper">
+      <div class="content">
+         <div class="content__row">
+            <div class="content__block-1">
+               <div class="block-1__title">
+                  <div class="block-1__title__item">Enefty</div>
+                  <div class="block-1__title__item title-dot">.</div>
+               </div>
+               <div class="block-1__text">
+                  <div class="block-1__text__item">NFT Mobile</div>
+                  <div class="block-1__text__item">Apps UI Kit</div>
+               </div>
+               <div class="block-1__button">
+                  <p class="button__thirty block-1__button__item">30+</p>
+                  <p class="button__screens block-1__button__item">Screens</p>
+               </div>
+               <div class="block-1__list">
+                  <div class="block-1__list__row">
+                     <div class="block-1__row__list">
+                        <div class="list__item">
+                           <div class="list__item__img">
+                              <ion-icon name="checkmark-outline"></ion-icon>
+                           </div>
+                           <div class="list__item__text">Fully Customizable</div>
+                        </div>
+                        <div class="list__item">
+                           <div class="list__item__img">
+                              <ion-icon name="checkmark-outline"></ion-icon>
+                           </div>
+                           <div class="list__item__text">Reuse Component</div>
+                        </div>
+                     </div>
+                     <div class="block-1__row__list">
+                        <div class="list__item">
+                           <div class="list__item__img">
+                              <ion-icon name="checkmark-outline"></ion-icon>
+                           </div>
+                           <div class="list__item__text">Styleguide Included</div>
+                        </div>
+                        <div class="list__item">
+                           <div class="list__item__img">
+                              <ion-icon name="checkmark-outline"></ion-icon>
+                           </div>
+                           <div class="list__item__text">Light Mode</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="block-1__img">
+                  <img src="./img/1200px-Figma-logo.svg.png" alt="" width="25">
+               </div>
+            </div>
+
+            <div class="content__block-2">
+               <div class="block-2__img">
+                  <img src="./img/Image.png" alt="" width="620">
+               </div>
+               <div class="block-2__checkbox">
+                  <label class="checkbox">
+                     <p>Dark Mode</p>
+                     <input onchange="changeBgFunc(this.checked)" type="checkbox" class="checkbox__input">
+                     <div class="checkbox__div"></div>
+                  </label>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <script>
+      function changeBgFunc(isChecked) {
+         if (isChecked) {
+            document.body.setAttribute('dark', '');
+         }
+         else {
+            document.body.removeAttribute('dark');
+         }
+      }
+   </script>
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
